@@ -1,0 +1,48 @@
+export default {
+  port: 3300,
+  dbUri: "mongodb://0.0.0.0:27017/rest-express",
+  url: `http://localhost:3300`,
+  accessTokenTtl: "15m",
+  saltRounds: 10,
+  refreshTokenTtl: "7d",
+  privateKey: `-----BEGIN PRIVATE KEY-----
+  MIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQDT0DtUm+0D48Pj
+  061vE+oW97+AMpcYpcGIKDSy1Go6DcH5UuRCWGf6ar+zcmFhSpfgt+szbVJfq5KW
+  qQfQleLgW9bd4rd2TjeH0FcXWYfklbOuSzbexTc0pAmSh5x7vIkM30hXh97sPMIP
+  //VIs14WLE0GsDKydbvIVwcR39KumJu08vVNxocdWcGCuqJDQuUL3aDF8RC4k5JO
+  pXw7zifTE3mx5356wp1hFlIntn4VnyovcikmuOPJm0DKAWkwhWo0ezBPpWXxytsU
+  C4GNSv1akvCMm4KWxjONgoFeMo2FP1zjFQzI4QF6baX9WJST8n58YiJObbfO8iaI
+  wf9dDnd/AgMBAAECggEAIazsGeYWdzVZmhm3676TS6aE/ElOy3zi+ZZG1p2968/v
+  JIggwUmT8nTRWKLZR6IX5oLnMoxxecNp8WkbVHbYFMqVLT7T40vJOV8O0agK2nVQ
+  lWfg5+ccAVMJMJI991BAy9qeAkiYUR/RzMBpi271CPpvHp6Z2NSuD8qCVb2rndVc
+  SzJfS4PL78T+tI+Y/+OIe6ftL7bB0ICrrSwxvzu/tNDMnbwg5gjWCyuoOJp5nQLW
+  p55PHboOyLZW0lK0T0usk3oQNcg4FMFnJok0m4EjIgV3nahghsMSLgEb7sMRMUrE
+  1VPmjLvtjIrlZBBbg9QMEdZShOxtMmBm1oN1fGRN0QKBgQD4x+3NvDbxsIf1yMoN
+  9eJdVjgS9FswfUjx/u2zRUedMOLOidxfVZVoDlmCc0NoTXPbuqtLaUTS0H0l49KN
+  GLlK+Sf2jbto/HcdXCSoZQ+NaJ71cBptEP3ZzvRsoizzme5FLsoO5BjvhhgsYYac
+  +kwYTpUxIa5vQaBN8wAyvuCNTwKBgQDZ9bBj/+ZAzoVl7Ad20cSdyvAv6UvV5/cM
+  neaRJK3amue5VQL2HEbYLkWRG69cTvhL5uoa54xzeicScX2NT7rUDuZ9UIpnkLEL
+  nexZKHvwzqtG5G/uH0016HzcBPS2AWGGwVVgFOatMkZErNDopSvmJqpzRovbW8kZ
+  qK4uQpDG0QKBgQD2Gdkd/4We21H0CvgOjWGrkYIRBhc7RYSml9gO0ocAcf678FbH
+  HEObVy6mxF03Tf9Bq0yOYgmKPmK+27tKht2t1AH7fcOaHL28lo1Q5ABZk9hD1eze
+  XcOw9nCHEntDU9AIMjwCNRSRxeYd6TAgE9644OvnWXlUZ+grlCprCLXcMwKBgQDP
+  qqFXhffyA1NiWtJ5yT+WQEc8vwF8WzktkjyeSd5DjJgAIxlhOGvfiabKrSAVyUAV
+  wXuICtntJJOZpPxE6ZROe6vr9hMIvfmR4fPQtxvvwlm6f+iNbtF37X0ZfLdTulkb
+  tZUMqJ1oo6ADysx4/PaooGqCztJuPDOM+QSMGuwqIQKBgQC6RHmqKa9QoMmkt7bY
+  oUlQEZ+hyGyPM0xYy6YCUutyRbikAmyOOqeGfNqOjB6H8MWLV71wVFftS2kroT85
+  WI6WVW8/U+Qduk1O1RCm2Ah5vbzswHTkddJnTulpdc1KjJZXbSuocW5CIVqhTH0P
+  naOR/sxENnlwZc4Oi82Do4apSQ==
+  -----END PRIVATE KEY-----`,
+  publicKey: `-----BEGIN PUBLIC KEY-----
+  MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA09A7VJvtA+PD49OtbxPq
+  Fve/gDKXGKXBiCg0stRqOg3B+VLkQlhn+mq/s3JhYUqX4LfrM21SX6uSlqkH0JXi
+  4FvW3eK3dk43h9BXF1mH5JWzrks23sU3NKQJkoece7yJDN9IV4fe7DzCD//1SLNe
+  FixNBrAysnW7yFcHEd/SrpibtPL1TcaHHVnBgrqiQ0LlC92gxfEQuJOSTqV8O84n
+  0xN5sed+esKdYRZSJ7Z+FZ8qL3IpJrjjyZtAygFpMIVqNHswT6Vl8crbFAuBjUr9
+  WpLwjJuClsYzjYKBXjKNhT9c4xUMyOEBem2l/ViUk/J+fGIiTm23zvImiMH/XQ53
+  fwIDAQAB
+  -----END PUBLIC KEY-----`
+
+
+
+}
